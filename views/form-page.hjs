@@ -1,0 +1,72 @@
+<div class="row">
+  <h1>Form Submission</h1>
+</div>
+<div>
+  <p>There are two options of where to submit the form data. You can change them below.</p>
+  <p>The default is to post the data to another page within this website, which will persist your first name in the web session. </p>
+  
+  <p>The second option is to post to <a href="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php">http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php</a></p>
+  <div class="btn-group btn-group-toggle" data-toggle="buttons">
+    <label class="btn btn-outline-info active form-url-control" data-target="showhttp">
+      <input type="radio" name="options" id="option1" autocomplete="off"  checked> Post to Internal Page
+    </label>
+    <label class="btn btn-outline-info form-url-control" data-target="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php">
+      <input type="radio" name="options" id="option2" autocomplete="off" >  Post to External Site
+    </label>
+
+  </div>
+</div>
+
+
+<hr />
+<div class="card">
+  <div class="card-header">
+    <span class="alert" id="formTrgLabel">Post to Internal Page</span>
+  </div>
+  <div class="card-body">
+    <div  class="row justify-content-center">
+      <form id="form-submit" method="post" action="showhttp" class="col-lg-5" target="_blank">
+        <div class="form-group">
+          <label for="firstName">First Name</label>
+          <input type="text" class="form-control" name="firstName" id="firstName" value="{{firstName}}" />
+        </div>
+        <div class="form-group">
+          <label for="lastName">Last Name</label>
+          <input type="text" class="form-control" name="lastName" id="lastName" value="{{lastName}}" />
+        </div>
+        <div class="form-group">
+          <label for="age">Age</label>
+          <input type="number" class="form-control" name="age" id="age" value="{{age}}" />
+        </div>
+    
+        <div class="form-group">
+          <label for="emailInput">Email address</label>
+          <input value="{{email}}" type="email" class="form-control" id="emailInput" name="email" aria-describedby="emailHelp" placeholder="Enter email">
+
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+    const frmCtrlClass = "form-url-control";
+    const frmTargetAttr = "data-target";
+    const formTrgLabel = "formTrgLabel";
+    var triggers = document.getElementsByClassName(frmCtrlClass);
+
+    function changeFormTarget() {
+      let target = this.getAttribute(frmTargetAttr); 
+      console.log(target);
+      document.getElementById("form-submit").setAttribute("action", target);
+      document.getElementById(formTrgLabel).innerText = this.innerText;
+
+    }
+
+    Array.prototype.forEach.call(triggers, function(el) {
+      el.addEventListener("click", changeFormTarget); 
+    });
+
+</script>

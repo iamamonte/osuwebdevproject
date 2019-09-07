@@ -1,0 +1,121 @@
+<div class="row">
+    <div class="description user_content student-version enhanced">
+        <p><strong>CS290 Course Project</strong></p>
+        <p>In this project, you need to use HTML/CSS and JavaScript to build a simple website and <strong>publish it
+                online</strong>. You can build a personal website for yourself, or a website of a small business or
+            organization like a farm, a restaurant, a park, a hotel, a baseball club, or a website of some tutorials,
+            showing skills that you have expertise in and want to share with others. You have a lot of freedom to
+            determine the details of your website as long as you meet the requirements. &nbsp;The theme doesn’t need to
+            be real. Be creative! You will have two weeks (w5-w6) to work on this project.&nbsp;</p>
+        <p>&nbsp;</p>
+        <p><strong>Requirements:</strong></p>
+        <ol>
+            <li>The webpages should be presentable as a whole; the interface should be user friendly (text should be
+                easy to read).</li>
+            <li>The website should contain pictures or videos, and they should be presentable as well (placed in a
+                proper place, easy to see, have proper size and resolution).</li>
+            <li>Website has 1 homepage and at least 3 subpages; the homepage and subpages have a horizontal menu that
+                leads to the other pages.</li>
+            <li>The homepage has picture carousel animation (slideshow effect, for example, pictures in this page <a
+                    href="http://oregonstateparks.org/" class="external" target="_blank" rel="noreferrer noopener"><span>http://oregonstateparks.org/</span><span
+                        aria-hidden="true" class="ui-icon ui-icon-extlink ui-icon-inline" title="Links to an external site."></span><span
+                        class="screenreader-only">&nbsp;(Links to an external site.)</span></a>)</li>
+            <li>Have a scroll box in one page. You can put text only or text with pictures inside the scroll box.&nbsp;
+                The scroll box should have something like a scroll bar to allow users rolling it up and down.</li>
+            <li>One page has a form either submit via get or post (enter the email and subscribe, a short survey,
+                etc.)&nbsp; You can set it to be submitted&nbsp;to&nbsp;<a href="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php"
+                    class="external" target="_blank" rel="noreferrer noopener"><span>http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php</span><span
+                        aria-hidden="true" class="ui-icon ui-icon-extlink ui-icon-inline" title="Links to an external site."></span><span
+                        class="screenreader-only">&nbsp;(Links to an external site.)</span></a>&nbsp;or your own link
+                as long as it is working.</li>
+            <li>One page has unordered HTML list with several entries.</li>
+            <li>There is one button to download files (map to the farm, menu in the restaurant, a personal CV, etc.)
+                The downloaded file can either open in the browser or download to the local computer.</li>
+            <li>There is a link that you can click and leads to outside webpages (linkedin, yelp, email, etc.)</li>
+            <li>You are allowed to add other features not listed above to your website as long as they are functional
+                and serve some purpose in your website.</li>
+            <li>You should use at least HTML/CSS and JavaScript in your project.</li>
+        </ol>
+        <p>&nbsp;</p>
+        <p><strong>Things to keep in mind:</strong></p>
+        <ul>
+            <li>You need to search online or read books to learn the skills you need for this project by yourself. You
+                can post questions on Piazza if you couldn’t solve some technical difficulty after some research. Check
+                out the resource link page on Canvas for more information (<a href="/courses/1745065/pages/useful-links"
+                    data-api-endpoint="https://oregonstate.instructure.com/api/v1/courses/1745065/pages/useful-links"
+                    data-api-returntype="Page">https://oregonstate.instructure.com$WIKI_REFERENCE$/pages/useful-links</a>)
+                and also W3School for short tutorials (<a href="https://www.w3schools.com/" class="external" target="_blank"
+                    rel="noreferrer noopener"><span>https://www.w3schools.com/</span><span aria-hidden="true" class="ui-icon ui-icon-extlink ui-icon-inline"
+                        title="Links to an external site."></span><span class="screenreader-only">&nbsp;(Links to an
+                        external site.)</span></a>).&nbsp; You are allowed to use other existing APIs (like Bootstrap
+                for CSS) for your project.&nbsp; If you are not sure about certain resources, ask us on Piazza.</li>
+            <li>There are a lot of website templates online. You can learn some features or settings from these
+                templates, but you can’t copy the whole templates and use it as your own project.</li>
+            <li>You need to design your page first before you actually start coding. Remember that your pages should be
+                presentable.&nbsp; It doesn't need to look like a professional website to get the full grade, but when
+                we look at the pages, we should be able to tell that you have put some efforts to design your pages.</li>
+            <li>You can build a simple website that meets the requirement first, and add more features later if you
+                have time.&nbsp;</li>
+            <li>If you use pictures/videos from other resources (not owned by you), please cite the resources to avoid
+                any copyright issue.</li>
+            <li>The content of your website doesn’t matter. We will not grade based on the content (for example, we
+                won’t look at your CV attached in your website to see whether it is a good one). &nbsp;So just put
+                something meaningful there, and if you want to make your website real, you can update the content
+                later.</li>
+            <li><span>You should spend less time designing and making things pretty and spend more time on implementing
+                    interesting code. You can challenge yourself to implement some more advanced features, such as a
+                    form that needs to submit somewhere, a&nbsp;picture with a border, some backend admin features
+                    controls.</span></li>
+            <li>Many website functions rely on the database access which will be taught in CS340. We will touch it a
+                little bit in week 6.&nbsp; We won’t require you to implement the database related functions in this
+                project. &nbsp;Try to use all the skills you learned so far in this course to build your website.&nbsp;
+                If your website only uses HTML/CSS without JavaScript code, your project will be deduct 10% points.</li>
+            <li>For a few of you who take this course together with CS340, you are allowed to use part of your code
+                from that course project for this project, but don't submit an identical project for both courses.</li>
+        </ul>
+        <p>&nbsp;</p>
+        <p><strong>Grading and Extra credit:</strong></p>
+        <p>As long as your website meets the requirements listed above and your program has good coding style, you will
+            get full points. &nbsp;TAs will pick several best website candidates from their grading group and put these
+            links in a poll on Piazza.&nbsp; The whole class will vote for the best projects and the ones that get the
+            most votes will receive 10% extra credit as a reward. &nbsp;To select the best website candidate, we will
+            count how many different features are included in your website and the technical difficulty in implementing
+            these features. We will also look for the good layout of the webpages and the design of the website as a
+            whole.&nbsp;&nbsp;</p>
+        <p>The project <strong>allow late submission</strong>.&nbsp; But if you submit it late, you won't get the
+            opportunity to compete for the extra credit poll.&nbsp;</p>
+        <p>&nbsp;</p>
+        <p><strong>What to do and expect:</strong></p>
+        <p>Stage 1: During the first week, you need to choose a theme for your website, plan it, design it, collect
+            materials, learn new skills, and submit a proposal which briefly describes the structure and features of
+            your website.&nbsp; You should have a sketch of your website before you actually start coding.&nbsp; Put
+            your thoughts on paper first and finalize it.&nbsp;&nbsp;</p>
+        <p>Stage 2: You can build the layout of your webpage now.&nbsp; Write the homepage first, and then the
+            subpages.&nbsp;&nbsp; Add different features one by one.&nbsp; At this stage, you don’t need to worry about
+            the appearance (text color, typography, etc.) and content too much.&nbsp;&nbsp;&nbsp;</p>
+        <p>Stage 3: After the main part of the webpage is done, you can adjust the details to make the webpages more
+            presentable, such as theme colors, text typography and animation effect.&nbsp; You can also replace the
+            text content with something more meaningful.&nbsp; After finalizing the webpages, publish your website
+            online.&nbsp; You can host your pages on ONID or the engineering server following the instructions in the
+            link:</p>
+        <p><a href="http://oregonstate.edu/helpdocs/accounts/onid/using-your-onid/onid-personal-website-information#connect-home"
+                class="external" target="_blank" rel="noreferrer noopener"><span>http://oregonstate.edu/helpdocs/accounts/onid/using-your-onid/onid-personal-website-information#connect-home</span><span
+                    aria-hidden="true" class="ui-icon ui-icon-extlink ui-icon-inline" title="Links to an external site."></span><span
+                    class="screenreader-only">&nbsp;(Links to an external site.)</span></a></p>
+        <p><a href="https://it.engineering.oregonstate.edu/where-do-i-put-my-personal-webpages" class="external" target="_blank"
+                rel="noreferrer noopener"><span>https://it.engineering.oregonstate.edu/where-do-i-put-my-personal-webpages</span><span
+                    aria-hidden="true" class="ui-icon ui-icon-extlink ui-icon-inline" title="Links to an external site."></span><span
+                    class="screenreader-only">&nbsp;(Links to an external site.)</span></a></p>
+        <p>Stage 4: Your project should be complete after stage 3.&nbsp; But if you are interested, you can add more
+            features and even the database supported functions after the course is ended.&nbsp; If it is a personal
+            website, you can even use it for job hunting!&nbsp;</p>
+        <p>&nbsp;</p>
+        <p><strong>What to submit:</strong></p>
+        <p>Put all your files in a zip file and submit it on Canvas. Name the zip file as
+            Project-2019Summer-LastName-FirstName. In the textbox, <strong>enter the link to your website and also give
+                your website a name,&nbsp;</strong>for example, Tom's personal website.&nbsp; It is your responsibility
+            to make the link working before the grading is done.</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+    </div>
+</div>

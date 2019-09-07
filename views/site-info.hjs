@@ -1,0 +1,109 @@
+<div class="container">
+    <div class="col-lg-12">
+        <h3>Site Information</h3>
+        <hr />
+    </div>
+
+    <section id="about-the-author" class="col-lg-12 row">
+        <div class="col-lg-5">
+            <div class="card">
+                <div class="card-header">
+                    About the Author <span>
+                        <img id="requirement-img" src="pic.jpg" class="img-thumbnail float-right" />
+                        Darren Andrews
+                    </span>
+                </div>
+                <div class="card-body">
+                    <span class="alert alert-success" id="alert">This section is intentionally shortened to show a
+                        scroll bar</span>
+                </div>
+                <div id="requirement-scroll">
+                    <p>This site was made by Darren Andrews, who prefers to go by Amonte.</p>
+                    <p>He will now switch to the first person narrative...</p>
+                    <p>
+                        Hi. I'm a self-taught developer dating back to 2011. I started out writing scripts in Visual
+                        Basic (Excel) while in an Operations Management role. My documents were used for a variety of
+                        purposes by the management staff, one of which being calculation of payroll for hundreds of
+                        employees. In addition to being a sort of general operations manager, I was responsible for
+                        recruiting for two production facilities. The workflow I inherited to manage recruiting was
+                        Excel and e-mail correspondence.
+
+                    </p>
+                    <p>After a while of doing things the hard way, I tried my hand at porting the recruiting workflow
+                        over into a web based recruiting web site (C#, Web Forms, jQuery) backed by SQL Server. As fate
+                        would have it, it worked ... eventually! And I found a new interest in coding.</p>
+                    <p>The natural next step was to expand that website to incorporate functionality of a variety
+                        of Excel worksheets that were used in the management process. Over time, it grew into a
+                        personnel management system. Some of its features were task assignment, sharing and
+                        tracking; note logging, sharing and tracking; a variety of data views previously not
+                        available now made possible through the power of SQL; report exports; all the necessary
+                        function to support onboarding like application submission/filtering/automated rejection;
+                        scheduling of interviews; recording of grading of tests administered during the interview;
+                        managing orientation session scheduling/attendance requests/confirmations; etc.
+                    </p>
+                    <p>My work in this arena eventually resulted in my position changing to that of a developer.
+                        From there I did a lot. The most notable being creating a secondary transcription workflow
+                        to support video transcription. That means, a client application for transcribing with
+                        shortcut assistance, spellcheck, media markers, time logging, QA systems; web controls for
+                        management; console apps and windows services for backend processes; a WCF web service to
+                        tie it all together; etc.
+                    </p>
+                    <p>In addition to the systems I architected, I've also provided feature upgrades and
+                        maintenance on legacy inherited apps in Java and VB6.
+                    </p>
+                    <p>I'm currently enrolled at the University of Oregon completing a post-baccalaureate
+                        degree in Computer Science. After which, I plan to pursue a master's degree in
+                        computational linguistics and/or data science. </p>
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-lg-7">
+
+            <div class="card">
+
+                <div class="card-body">
+                    <h5 class="card-title">
+                        About this site
+                    </h5>
+                    <div class="card-text">
+                        So about this site. &hellip;
+                        <p>
+                            The following list outlines some of the technologies and tools used to build this site:
+                            <ul id="requirement-list">
+                                <li>Bootstrap</li>
+                                <li>Express</li>
+                                <li>Express Handlebars</li>
+                                <li>Express Session</li>
+                                <li>Time</li>
+                                <li>Love</li>
+                            </ul>
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+</div>
+
+</section>
+</div>
+
+<style>
+    #requirement-scroll {
+        overflow: scroll;
+        height: 300px;
+        padding: 2%;
+    }
+
+    #alert {
+        font-size: x-small;
+    }
+</style>
